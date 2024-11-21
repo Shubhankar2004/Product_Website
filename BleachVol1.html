@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bleach Vol 1</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Manga.css">
+    <link rel="stylesheet" href="Product.css">
+    
+    <style>
+        a{
+          text-decoration: none;
+          color:black;
+        }
+        #aboutPara:hover{
+          text-decoration: none;
+          color:black;
+        }
+        header{
+            margin-bottom: 50px;
+        }
+
+        img:hover {
+          transform: scale(1.1); /* Slight zoom-in effect */
+          transition: transform 0.3s ease; /* Smooth transition effect */
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Focused shadow */
+          cursor: pointer; /* Changes cursor to pointer */
+        }
+
+        
+
+
+        #buy{
+            height:50px;
+            width:500px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 0px;
+            background-color: greenyellow;
+        }
+
+        #buy:hover{
+           background-color: green; 
+           color:white;
+        }
+
+        p:hover{
+          text-decoration: none;
+        }
+
+        #productinfo{
+          padding: 20px;
+          height: 525px;
+          width:1500px;
+          border-radius: 20px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+
+        .aboutContainer{
+          border-radius: 20px;
+          width:1500px;
+          padding: 20px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-left: 20px;
+          margin-right: 20px;
+          box-shadow: 0px 10px 30px rgb(56, 58, 58);
+        }
+
+      </style>
+</head>
+<body background-color="beige">
+  <header class="container-fluid">
+    <div class="row " style="height: 120px;">
+        <div class="col-lg-1">
+            <img src="face.png" alt="logo" height="100px">
+        </div>
+        <div class="col-lg-1" style="padding-left: 10px;"><p><a href="Product.html">Home</a></p></div>
+        <div class="col-lg-1" style="padding-left: 5px;"><p><a href="#Aboutus">About Us</a></p></div>
+        <div class="col-lg-1" style="padding-left: 10px;"><p><a href="#contact">Contact Us</a></p></div>
+        <li class="nav-item dropdown col-lg-1" style="padding-left: 10px;">
+          <a id="catgory" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catagories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="Manga.html">Mangas</a></li>
+            <li><a class="dropdown-item" href="#">Action Figures</a></li>
+            <li><a class="dropdown-item" href="#">Merchendise</a></li>
+          </ul>
+        </li>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-2" style="padding-top: 30px; display: flex;">
+          <input type="text" placeholder="Search" style="height: 40px;border-radius: 5px;margin-right:15px;"><button class="btn btn-outline-dark" type="submit" style="height: 40px;border-radius: 5px;">Search</button>
+        </div>
+        <div class="col-lg-1" ></div>
+        <div class="col-lg-1"><img class="cart" src="shopping-cart.png" alt="cart" height="80px"></div>
+    </div>
+</header>
+
+
+    <div id="productinfo" class="container-fluid" style="box-shadow: 0px 10px 30px rgb(56, 58, 58);">
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/bleach1.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/bleach2.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="container1" style="margin-left: 50px;">
+                    <h1>Bleach Vol 1 (3 in one) Edition</h1>
+                    <p>Catagory : Shonen Manga | Author : Tite Kubo | Publisher : Kodansha | Language : English </p>
+                    <p>Rating : 4.5 </p>
+                    <h1>Rs. 500</h1>
+
+                    <input id="buy" type="button" value="Buy"><br>
+                    <button class="btn btn-outline-success" type="button" style="height: 50px;width:500px;border-radius: 5px;">Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutContainer">
+      <h1>Product Info</h1>
+      <p>Bleach Vol. 1 (3-in-1 Edition) brings together the first three volumes of Tite Kubo's iconic manga series. Follow the journey of Ichigo Kurosaki, a high school student with the unique ability to see ghosts, as he becomes a Soul Reaper to protect the living and guide spirits to the afterlife. Packed with action, humor, and striking artwork, this edition is a perfect start for new readers or a great addition for long-time fans.</p>
+    </div>
+
+    <footer style="position:sticky;bottom: 0; background-color: rgb(76, 76, 45);color:white;text-align: center;">
+      <b>@2024 all rights reserved to Shubhankar Kashyap</b>
+    </footer>
+
+</body>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</html>
